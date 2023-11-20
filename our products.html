@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our products</title>
     <link rel="ourproductssheet" href="ourproducts.css">
+    <link rel="stylesheet" href="indexmedia.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
@@ -36,41 +38,92 @@
     </div>
           </nav>  
 
-        <h1> Let us help you in the kitchen! </h1>
-        
-        <div class="gallery">
-          <a target="_blank" href="img_5terre.jpg">
-            <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-        
-        <div class="gallery">
-          <a target="_blank" href="img_forest.jpg">
-            <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-        
-        <div class="gallery">
-          <a target="_blank" href="img_lights.jpg">
-            <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-        
-        <div class="gallery">
-          <a target="_blank" href="img_mountains.jpg">
-            <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-          </a>
-          <div class="desc">Add a description of the image here</div>
-        </div>
-        
-
-        </body>
-        </html>
-        
-        
+        <h1 id="'title"> Let us help you in the kitchen! </h1>
+               
+               <div class="presentacion">
+                <h6>Buy our high quality and beautiful utensiles for your kitchen!</h6>
+               </div>
+               <main class="container mb-4">
+                <div class="row row-cols-1 row-cols-md-3 g-4 container-items">
+                  <div class="container2">
+                  <div class="col">
+                    <div class="card"> 
+                      <div class="a">
+                      <img src="imagen/The-Pioneer-Woman-Pioneer-Signature-14-Piece-Stainless-Steel-Knife-Block-Set-Teal_9b29ab09-193b-498c-a5f0-33155fdbce72.e31580546e1b2afd2bd69d98e532d6a6.jpeg" class="card-img-top" alt="Knife set">
+                      <div class="card-body">
+                        <h5 class="card-title">Knife Set</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">14-Piece Stainless Steel Knife Block Teal Set. </h6>
+                        <p class="card-text">$45,00</p>
+                        <button class="btn-comprar" type="button" onclick="comprar(45, 'Knifes')" class="card-link btn-add-cart">Add to cart</button>
+                      </div>
+                     </div>
+                    </div>
+                  </div>
+          
+                  <div class="col">
+                    <div class="card">
+                      <div class="d">
+                      <img src="imagen/The-Pioneer-Woman-Vintage-Floral-6-3-Quart-Air-Fryer-with-LED-Screen-13-46-New_6c567c5f-2269-472e-b0d3-347868a5928f.10a22502fbf216fe96601e524d4c7467.jpeg" class="card-img-top" alt="Air fryer">
+                      <div class="card-body">
+                        <h5 class="card-title">Air Fryer </h5>
+                        <h6 class="card-subtitle mb-2 text-muted"> Vintage Floral 6.3 Quart Air Fryer with LED Screen</h6>
+                        <p class="card-text">$59,00</p>
+                        <button class="btn-comprar" type="button" onclick="comprar(59, 'Air fryer')" class="card-link btn-add-cart">Add to cart</button>
+                      </div>
+                     </div>
+                    </div>
+                  </div>
+          
+                  <div class="col">
+                    <div class="card">
+                      <div class="e">
+                      <img src="imagen/The-Pioneer-Woman-Brilliant-Blooms-20-Piece-Blue-Bake-Prep-Set-with-Baking-Dish-Measuring-Cups_9213ffde-e0ec-4371-bf99-3047a87fe6fa.eaccc569c49b17b0723a128a08ed8c8b.jpg" class="card-img-top" alt="Bake set">
+                      <div class="card-body">
+                        <h5 class="card-title">Bake set</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">20-Piece Blue Bake & Prep Set with Baking Dish & Measuring Cups</h6>
+                        <p class="card-text">$20,00</p>
+                        <button class="btn-comprar" type="button" onclick="comprar(20, 'Bake set')" class="card-link btn-add-cart">Add to cart</button>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+          
+                  <div class="col">
+                    <div class="card">
+                      <div class="f">
+                      <img src="imagen/The-Pioneer-Woman-Frontier-Speckle-24-Piece-Aluminum-Non-Stick-Cookware-Combo-Set-Red_be83d1dc-1839-4f32-9fc4-f0dc8020f400.afddd5b3852e03b43532be9225b8448b.jpeg" class="card-img-top" alt=" Frontier Speckle ">
+                      <div class="card-body">
+                        <h5 class="card-title"> Frontier Speckle </h5>
+                        <h6 class="card-subtitle mb-2 text-muted">24-Piece Aluminum Non-Stick Cookware Combo Set.</h6>
+                        <p class="card-text">$107,00</p>
+                        <button class="btn-comprar" type="button" onclick="comprar(107, ' Frontier Speckle ')" class="card-link btn-add-cart">Add to cart</button>
+                      </div>
+                     </div>
+                    </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="container-cart">
+          
+                  <div class="container-cart-products hidden-cart">
+                    <div class="cart-empty hidden">
+                      <p id="no-productos" class="pago">The cart is empty.</p>
+                    </div>
+                    <div class="row-product">
+                    </div>
+                    <div class="cart-total">
+                      <p class="pago">Total: <p id="total-a-pagar" class="pago">$0</p></p>
+                      <p class="pago">Amount of products on the cart: <span id="cantidad">0</span></p>
+                    </div>
+                    <button type="button" class="btn btn-danger" onclick="vaciar()" >Restart sale </button>
+                  </div>
+                </div>
+              </main>
+            
+          </body>
+              
     
-</body>
 </html>
+
+
+<script src="javascript.js"></script>
