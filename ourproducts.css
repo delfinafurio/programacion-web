@@ -1,20 +1,22 @@
 #titleop{
   margin-left: 3%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';  
+
 }
 
 
 .presentacion{
-  margin-left:3%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';  
-  padding-left: 6%;
   display:flex;
-
+  justify-content:center; 
 
 }
 
 .rowsie {
   display:flex;
   flex-wrap: wrap;
+  flex-direction:row; 
+  justify-content:space-evenly; 
 
 
   
@@ -31,36 +33,85 @@
 
 }
 
-
-.card-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%; /* O ajusta según sea necesario */
+.card-body{
+  text-align: center;
 }
+
 .btn-comprar{
-    display:flex;
-    align-content: center; 
-
-}
-
-
-.btn-danger {
-  border-radius: 10px; 
-  background-color: red;
-  color: white; 
-  padding: 10px 20px; 
-  cursor: pointer; 
-}
-
-.btn-danger:hover {
-  background-color: darkred; 
+    text-align:center; 
+    background-color: #e9f5dc;
+    color: #000000;
+    border: 20px;
+    font-size: 1em;       
 }
 
 
 
+.container-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centra las columnas horizontalmente */
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
 
 
+.mb-4{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+  box-sizing: border-box; 
+  padding-right:1%; 
+  /* background-color: #2E8B57; */
+
+}
+
+.btn{
+  color: #fff;
+  border-color: #35cedc;
+  background-color: #fff;
+
+}
+.button.btn.btn-danger{
+  color: #fff;
+  border-color: #dc3545;
+  background-color: #fff;
+
+ 
+
+}
+
+
+.btn:hover{
+    color: #fff;
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+
+
+
+
+
+.footer{
+  text-align:center; 
+  background-color: #2E8B57;
+  padding-bottom:0;
+
+  }  
+
+
+
+  .logofooter{ 
+    text-align: center;
+    width:17%;
+    height:auto; 
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 0; 
+  
+  }  
