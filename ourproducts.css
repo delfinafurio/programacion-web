@@ -1,3 +1,65 @@
+#titleop{
+  margin-left: 3%;
+}
+
+
+.presentacion{
+  margin-left:3%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';  
+  padding-left: 6%;
+  display:flex;
+
+
+}
+
+.rowsie {
+  display:flex;
+  flex-wrap: wrap;
+
+
+  
+}
+
+.card{
+  margin-top: 4%;
+  margin-bottom:4%; 
+
+}
+
+.card-title{
+  text-align:center; 
+
+}
+
+
+.card-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* O ajusta según sea necesario */
+}
+.btn-comprar{
+    display:flex;
+    align-content: center; 
+
+}
+
+
+.btn-danger {
+  border-radius: 10px; 
+  background-color: red;
+  color: white; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+}
+
+.btn-danger:hover {
+  background-color: darkred; 
+}
+
+
+
+
 
 
 
